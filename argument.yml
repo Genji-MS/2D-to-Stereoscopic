@@ -4,11 +4,11 @@ rgb_feat_model_ckpt: checkpoints/color-model.pth
 MiDaS_model_ckpt: MiDaS/model.pt
 fps: 2
 num_frames: 2
-x_shift_range: [0.2,-0.2]
-y_shift_range: [0.00,0.00]
-z_shift_range: [0.00,0.00]
-traj_types: ['double-straight-line', 'double-straight-line']
-video_postfix: ['swing', 'swing']
+x_shift_range: [-0.01,-0.015,-0.02]
+y_shift_range: [0.00,0.00,0.00]
+z_shift_range: [0.00,0.00,0.00]
+traj_types: ['double-straight-line', 'double-straight-line','double-straight-line']
+video_postfix: ['stereo1', 'stereo2', 'stereo3']
 #x_shift_range: [0.00, 0.00, -0.02, -0.02]
 #y_shift_range: [0.00, 0.00, -0.02, -0.00]
 #z_shift_range: [-0.05, -0.05, -0.07, -0.07]

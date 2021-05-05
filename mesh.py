@@ -24,6 +24,7 @@ from mesh_tools import refresh_bord_depth, enlarge_border, fill_dummy_bord, extr
 import transforms3d
 import random
 from functools import reduce
+from PIL import Image, ImageDraw
 
 def create_mesh(depth, image, int_mtx, config):
     H, W, C = image.shape
@@ -2233,6 +2234,8 @@ def output_3d_photo(verts, colors, faces, Height, Width, hFov, vFov, tgt_poses, 
     for video_pose, video_traj_type in zip(videos_poses, video_traj_types):
         stereos = []
         tops = []; buttoms = []; lefts = []; rights = []
+
+        # count = 0
         for tp_id, tp in enumerate(video_pose):
             rel_pose = np.linalg.inv(np.dot(tp, np.linalg.inv(ref_pose)))
             axis, angle = transforms3d.axangles.mat2axangle(rel_pose[0:3, 0:3])
@@ -2246,6 +2249,14 @@ def output_3d_photo(verts, colors, faces, Height, Width, hFov, vFov, tgt_poses, 
                 normal_canvas.reinit_camera(fov)
             normal_canvas.view_changed()
             img = normal_canvas.render()
+
+            # AttributeError: 'numpy.ndarray' object has no attribute 'read'
+            # count +=1
+            # img_img = Image.open(img)
+            # save_image = Image.new("RGB", img_img.size)
+            # save_image.paste(img_img)
+            # save_image.save(os.path.join(output_dir, video_basename + '_' + video_traj_type + str(count) + '.png'))
+
             img = cv2.GaussianBlur(img,(int(init_factor//2 * 2 + 1), int(init_factor//2 * 2 + 1)), 0)
             img = cv2.resize(img, (int(img.shape[1] / init_factor), int(img.shape[0] / init_factor)), interpolation=cv2.INTER_AREA)
             img = img[anchor[0]:anchor[1], anchor[2]:anchor[3]]
@@ -2283,13 +2294,27 @@ def output_3d_photo(verts, colors, faces, Height, Width, hFov, vFov, tgt_poses, 
         """
         atop = 0; abuttom = img.shape[0] - img.shape[0] % 2; aleft = 0; aright = img.shape[1] - img.shape[1] % 2
         crop_stereos = []
+
+        count = 0
+        # AttributeError: 'numpy.ndarray' object has no attribute 'read'
+        print (f'length of stereos {len(stereos)}')
         for stereo in stereos:
             crop_stereos.append((stereo[atop:abuttom, aleft:aright, :3] * 1).astype(np.uint8))
             stereos = crop_stereos
+
+            print(stereo.shape)
+            count +=1
+            stereo_img = Image.fromarray(stereo)
+            if isinstance(video_basename, list):
+                video_basename = video_basename[0]
+            path = os.path.join(output_dir, video_basename + '_' + video_traj_type + str(count) + '.png')
+            print(path)
+            stereo_img.save(path)
+
         clip = ImageSequenceClip(stereos, fps=config['fps'])
-        if isinstance(video_basename, list):
-            video_basename = video_basename[0]
-        clip.write_videofile(os.path.join(output_dir, video_basename + '_' + video_traj_type + '.mp4'), fps=config['fps'])
+        # if isinstance(video_basename, list):
+        #     video_basename = video_basename[0]
+        # clip.write_videofile(os.path.join(output_dir, video_basename + '_' + video_traj_type + '.mp4'), fps=config['fps'])
 
 
 
