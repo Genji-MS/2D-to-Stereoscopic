@@ -24,7 +24,7 @@ from mesh_tools import refresh_bord_depth, enlarge_border, fill_dummy_bord, extr
 import transforms3d
 import random
 from functools import reduce
-from PIL import Image, ImageDraw
+from PIL import Image
 
 def create_mesh(depth, image, int_mtx, config):
     H, W, C = image.shape
@@ -2295,27 +2295,25 @@ def output_3d_photo(verts, colors, faces, Height, Width, hFov, vFov, tgt_poses, 
         atop = 0; abuttom = img.shape[0] - img.shape[0] % 2; aleft = 0; aright = img.shape[1] - img.shape[1] % 2
         crop_stereos = []
 
-        count = 0
-        # AttributeError: 'numpy.ndarray' object has no attribute 'read'
-        print (f'length of stereos {len(stereos)}')
         for stereo in stereos:
             crop_stereos.append((stereo[atop:abuttom, aleft:aright, :3] * 1).astype(np.uint8))
             stereos = crop_stereos
-
-            print(stereo.shape)
-            count +=1
-            stereo_img = Image.fromarray(stereo)
-            if isinstance(video_basename, list):
-                video_basename = video_basename[0]
-            path = os.path.join(output_dir, video_basename + '_' + video_traj_type + str(count) + '.png')
-            print(path)
-            stereo_img.save(path)
-
-        clip = ImageSequenceClip(stereos, fps=config['fps'])
-        # if isinstance(video_basename, list):
-        #     video_basename = video_basename[0]
+        # clip = ImageSequenceClip(stereos, fps=config['fps'])
+        if isinstance(video_basename, list):
+            video_basename = video_basename[0]
         # clip.write_videofile(os.path.join(output_dir, video_basename + '_' + video_traj_type + '.mp4'), fps=config['fps'])
 
+        path = os.path.join(output_dir, video_basename + '_' + video_traj_type + '.png')
 
+        img_left_arr, img_right_arr = stereos[0],stereos[1]
+        print(img_left_arr.shape)
+        y_size,x_size,_ = img_left_arr.shape
+    
+        stereo_file = Image.new("RGB", (x_size*2,y_size))
+        img_left = Image.fromarray(img_left_arr)
+        stereo_file.paste(img_left)
+        img_right = Image.fromarray(img_right_arr)
+        stereo_file.paste(img_right,(x_size+1,0))
+        stereo_file.save(path)
 
     return normal_canvas, all_canvas
