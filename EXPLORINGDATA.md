@@ -5,17 +5,20 @@ Unlike most notebooks, this model is almost entirely excuted in python scripts t
 The models are referenced in the argument.yml file. This file has no comments, however DOCUMENTATION.md fills in the necessary details. https://github.com/vt-vl-lab/3d-photo-inpainting/blob/master/DOCUMENTATION.md
 
 - `MiDaS_model_ckpt: MiDaS/model.pt`
-"MiDaS was trained on 10 datasets (ReDWeb, DIML, Movies, MegaDepth, WSVD, TartanAir, HRWSI, ApolloScape, BlendedMVS, IRS) with multi-objective optimization." 
- - It's objective is to create a depth map of a 2D image. It's a grey scale image where white pixels are closer to the camera, and black pixels further. We use this grey scale image to create a 3D wireframe of our 2D image.
+
+  "MiDaS was trained on 10 datasets (ReDWeb, DIML, Movies, MegaDepth, WSVD, TartanAir, HRWSI, ApolloScape, BlendedMVS, IRS) with multi-objective optimization." 
+  - It's objective is to create a depth map of a 2D image. It's a grey scale image where white pixels are closer to the camera, and black pixels further. We use this grey scale image to create a 3D wireframe of our 2D image.
 
 - `depth_edge_model_ckpt: checkpoints/EdgeModel.pth`
 - `rgb_feat_model_ckpt: checkpoints/ColorModel.pth`
-"image inpainting recreates how artists work: lines first, color next." 
-- Together, these models create the textured 3D object
+
+  "image inpainting recreates how artists work: lines first, color next." 
+  - Together, these models create the textured 3D object
 
 - `depth_feat_model_ckpt: checkpoints/DepthModel.pth`
-"This is the model being demonstrated in the referenced paper above. It leverages the other models to create our final 3D output"
-- This model fills in 'missing' image data for a 3D scene. There are obvious holes when we move our camera in 3D space. The technique here fills in these holes better than competators.
+
+  "This is the model being demonstrated in the referenced paper above. It leverages the other models to create our final 3D output"
+  - This model fills in 'missing' image data for a 3D scene. There are obvious holes when we move our camera in 3D space. The technique here fills in these holes better than competators.
 
 
 ## Modifications
@@ -76,11 +79,11 @@ Depth Map
 
 3D Model from Depth Map
   - The depth map is used to create a 3D object, mapping the image as a texture over the 3D object. Note, the "holes" that are visible behind the objects, these are what get filled in by the model in the referenced paper.
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/image/Model1.png" height="250">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/depth/Model1.png" height="250">
 
 Output Image 
   - By shifting our object in 3D space, filling the holes and generating two images, we've created a CrossView Stereoscopic image.
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/video/Flower_Crossview.png" height="250">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/video/Flower_CrossView.png" height="250">
 
 Gif
   - Showing the disparity between the two images. 
@@ -89,12 +92,14 @@ Gif
 
 # Visualising Stereoscopic images
 
-Types of Stereoscopic Images
 <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/depth/StereoTypes.png" height = "200">
+
+Types of Stereoscopic Images
 
 - CrossView. You look at a point in FRONT of the image. Your left eye looks at the right image.
 - ParallelView. You look at a point BEYOND the image. Your left eye looks at the left image.
 
 Viewing Stereoscopic images with your eyes goes beyond the scope of this repo. But here are some resources:
 https://www.reddit.com/r/CrossView/
+
 https://www.reddit.com/r/ParallelView/
