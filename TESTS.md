@@ -97,10 +97,10 @@ The generated images use only the right side of the original set and use a `x_sh
 ### Vs Test# 08  -   Dog     -   with cutouts
 
     Original
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Dog.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Dog.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Dog.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Dog.png" height="280"> 
 
     Generated
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Dog_CrossView.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Dog_CrossView.png" height="350"> 
 
     Notes:
 - No depth of the smaller objects: leash, branch in mouth
@@ -185,42 +185,42 @@ Testing other 2D images out of curiousity to see if they would generate a stereo
 
 ### Stereo Test# 1  -   Bad Art Champion
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Bad.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Bad.png"> 
-    <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Bad_CrossView.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Bad.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Bad.png" height="280"> 
+    <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Bad_CrossView.png" height="350"> 
 
 ### Stereo Test# 2  -   Simpsons
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Bart.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Bart.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Bart.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Bart.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Bart_CrossView.png" height="350"> 
 
 ### Stereo Test# 3  -   Mononoke Hime
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Hime.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Hime.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Hime.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Hime.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Hime_CrossView.png" height="350"> 
 
 ### Stereo Test# 4  -   Totoro
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Totoro.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Totoro.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Totoro.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Totoro.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Totoro_CrossView.png" height="350"> 
 
 ### Stereo Test# 5  -   Totoro2
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Totoro2.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Totoro2.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Totoro2.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Totoro2.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Totoro2_CrossView.png" height="350"> 
 
 ### Stereo Test# 6  -   Wolfwalkers
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Wolfwalkers.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Wolfwalkers.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Wolfwalkers.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Wolfwalkers.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Wolfwalkers_CrossView.png" height="350"> 
 
 ### Stereo Test# 7  -   Alice in Wonderland
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Alice.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Alice.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Art_Alice.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Alice.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Art_Alice_CrossView.png" height="350"> 
 
 ### Stereo Test# 8  -   AI Painted Tree
 
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Paint_Tree.jpg" height="300"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Paint_Tree.png" height="300"> 
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Paint_Tree.jpg" height="280"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Paint_Tree.png" height="280"> 
     <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/Paint_Tree_CrossView.png" height="350"> 
 
 
