@@ -176,7 +176,7 @@ The generated images use only the right side of the original set and use a `x_sh
 
     Top Comments:
 - That look in his eyes made my day
-    -He's trying to crossview.
+    - He's trying to crossview.
 
 - Honestly I find some of the most creative content on this sub
 
@@ -237,6 +237,7 @@ The main issues seem to be the following:
 
 - Reflective & water surfaces do not generate depth
 
-- Cartoons need good shading to look 3D. Solid black lines 
+- For best effect, use images that are wider then the object of focus to prevent cropping from the disparity
 
-- For best effect, use images that are wider then the object of focus to prevent cropping from the disparity.
+- Cartoons need good shading to generate into 3D. Strong constast appears to cause issues, however the AI Painted Tree tells us it's not so simple
+
