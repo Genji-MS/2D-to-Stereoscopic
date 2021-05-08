@@ -8,10 +8,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 01  -   90596
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_90596.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_90596.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_90596.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_90596.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_90596_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_90596_CrossView.png" height="350">
 
     Notes:
         - At first glance it appears her shirt/abdomen is too far forward. But comparing it with the original it is absolutely correct!
@@ -20,10 +20,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 02  -   Mirror
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Mirror.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Mirror.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Mirror.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Mirror.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Mirror_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Mirror_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -32,10 +32,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 03  -   Mouth
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Mouth.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Mouth.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Mouth.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Mouth.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Mouth_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Mouth_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -44,10 +44,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 04  -   Plant
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Plant.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Plant.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Plant.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Plant.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Plant_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Plant_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -56,10 +56,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 05  -   Puddle
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Puddle.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Puddle.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Puddle.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Puddle.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Puddle_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Puddle_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -68,10 +68,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 06  -   Xray
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Xray.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Xray.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Xray.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Xray.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Xray_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Xray_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -80,10 +80,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 07  -   Hydrant
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Hydrant.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Hydrant.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Hydrant.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Hydrant.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Hydrant_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Hydrant_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -93,10 +93,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 08  -   Dog     -   with cutouts
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Dog.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Dog.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Dog.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Dog.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Dog_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Dog_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -105,10 +105,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 09  -   Overview     -   with cutouts
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Overview.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Overview.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Overview.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Overview.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Overview_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Overview_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -117,10 +117,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 10  -   Swim     -   with cutouts
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Swim.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Swim.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Swim.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Swim.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Swim_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Swim_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -129,10 +129,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 11  -   Text
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Text.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Text.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Text.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Text.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Text_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Text_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -141,10 +141,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 12  -   Art
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Art.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Art.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Art.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Art.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -153,10 +153,10 @@ The generated images use only the right side of the original set and use a `x_sh
 - Vs Test# 13  -   Meme
 
     Original
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Meme.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Meme.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Meme.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Meme.png" height="350"> 
 
     Generated
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Meme_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Meme_CrossView.png" height="350"> 
 
     Notes:
         - A
@@ -167,32 +167,32 @@ At this point, I began to test 2D images out of curiousity to see if they would 
 
 - Stereo Test# 1  -   Bad Art Champion
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Bad.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Bad_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Bad.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Art_Bad_CrossView.png" <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Bad_CrossView.png" height="350"> 
 
 - Stereo Test# 2  -   Simpsons
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Bart.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Bart_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Bart.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Art_Bart.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Bart_CrossView.png" height="350"> 
 
 - Stereo Test# 3  -   Mononoke Hime
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Hime.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Hime_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Hime.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Art_Hime.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Hime_CrossView.png" height="350"> 
 
 - Stereo Test# 4  -   Totoro
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Totoro.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Totoro_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Totoro.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Art_Totoro.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Totoro_CrossView.png" height="350"> 
 
 - Stereo Test# 5  -   Totoro2
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Totoro2.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Totoro2_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Totoro2.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Art_Totoro2.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Totoro2_CrossView.png" height="350"> 
 
 - Stereo Test# 6  -   Wolfwalkers
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Wolfwalkers.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Wolfwalkers_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Wolfwalkers.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Art_Wolfwalkers.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Wolfwalkers_CrossView.png" height="350"> 
 
 - Stereo Test# 7  -   Alice in Wonderland
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Alice.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Alice_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Art_Alice.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Art_Alice.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Art_Alice_CrossView.png" height="350"> 
 
 - Stereo Test# 8  -   AI Painted Tree
 
-    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Paint_Tree.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Paint_Tree_CrossView.jpg" height="350"> 
+    - <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/2DInput/Test_Paint_Tree.jpg" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/Test_Paint_Tree.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/StereoOutput/2D_Test_Paint_Tree_CrossView.png" height="350"> 
