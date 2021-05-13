@@ -26,7 +26,7 @@ In conclusion. There are a few cases where images do not process well into 3D:
   - Vertical textures - Imagine a black and white shirt. If the black side of the shirt is outside of the frame, the model will generate the missing portion as a white shirt. The effect is minimal in an image. But would become more apparent in a video where objects enter/exit the scene or pass behind foreground objects.
   - Objects of small width - The stem of an umbrella, flowers, or individual branches. Most of these objects do not generate on a depth map.
   - Objects of similar texture. A tree, in front of a tree, in front of a tree. It becomes difficult for the network to determine the appropriate level of depth of the individual branches due to the object similarity. Trees at a distance however work well because we can observe a distinct edge of the shape.
-  - Cartoons with hard lines of contrast - The backgrounds of classic animated films were often painted, and look very good in 3D. The actual cel shaded character animation will often have minimal shadows and highlights. Sometimes they do not convert well into 3D.
+  - Cartoons with hard lines of contrast - The backgrounds of classic animated films were often painted, and look very good in 3D. The actual cel shaded character animation will often have minimal shadows and highlights, or have solid black outlines that can generate an incorrect depth map.
 
 ## Demo
 Based on the original Google Colab, we can interject a couple of scripts to generate 3D Stereoscopic images.
