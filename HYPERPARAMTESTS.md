@@ -175,7 +175,6 @@ These images were generated with a greater disparity (0.0175) as an attempt to e
 
 
 ## Conclusions and Observations
-The main issues seem to be the following:
 
 - The parameters in the argument.yml file appear to have small, almost imperceptable changes. However, I believe the problem to be poor image choice. An image with an object closer to the foreground would allow us to observe the details the inPaint model generates to fill in the gaps where there is no image data
 
