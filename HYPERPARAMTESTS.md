@@ -69,11 +69,10 @@ A selection of images were thought they would look better if the left side of th
 ###  -   Mouth
 
     DepthMaps Left & Right respectively
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Mouth.png" height="350">
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Mouth.png" height="350">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Mouth.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Mouth.png" height="350">
 
     Original Image
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Mouth.jpg" height="350">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Mouth.jpg" height="350">
 
     Generated from Left
 <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Mouth_CrossView.png" height="350"> 
@@ -85,11 +84,10 @@ A selection of images were thought they would look better if the left side of th
 ###  -   Overview
 
     DepthMaps Left & Right respectively
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Overview.png" height="350">  
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Overview.png" height="350">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Overview.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Overview.png" height="350">
 
     Original Image
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Overview.jpg" height="350">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Overview.jpg" height="350">
 
     Generated from Left
 <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Overview_CrossView.png" height="350"> 
@@ -101,11 +99,10 @@ A selection of images were thought they would look better if the left side of th
 ###  -   Plant
 
     DepthMaps Left & Right respectively
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Plant.png" height="350">  
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Plant.png" height="350">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Plant.png" height="350"> <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/Depth/2D_Test_Plant.png" height="350">
 
     Original Image
-<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/2D_Test_Plant.jpg" height="350">
+<img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/3DInput/Test_Plant.jpg" height="350">
 
     Generated from Left
 <img src="https://github.com/Genji-MS/2D-to-Stereoscopic/blob/main/Tests/ParameterTuned/LeftInput/2D_Test_Plant_CrossView.png" height="350"> 
@@ -115,7 +112,7 @@ A selection of images were thought they would look better if the left side of th
 
 
 ## Disparity
-These images were generated with a greater disparity (0.0175) In an attempt to either recreate an image closer to the original, or to see if it would simply look better
+These images were generated with a greater disparity (0.0175) as an attempt to either recreate an image closer to the original, or to see if it would simply look better with a larger significance of depth
 
 ###  -   90596
 
