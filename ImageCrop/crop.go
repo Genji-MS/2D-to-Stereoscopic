@@ -56,10 +56,10 @@ func cropImage(fileName, inputPath, outputPath string, wg *sync.WaitGroup) {
 	height := imageBounds.Dy()
 	mid := right - width
 	fmt.Println("full width: " + strconv.Itoa(right) + " width: " + strconv.Itoa(mid) + " height: " + strconv.Itoa(height) )
-		// crop the right side image
+		// crop the right side image (Keeping the RIGHT)
 	rect := image.Rect(mid, 0, right, height)
-		// crop the left isde image
-	//rect := image.Rect(0, 0, width, height)
+		// crop the left side image (Keeping the LEFT)
+	// rect := image.Rect(0, 0, width, height)
 
 	type subImage interface {
         SubImage(r image.Rectangle) image.Image
