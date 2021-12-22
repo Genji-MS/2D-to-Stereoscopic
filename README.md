@@ -30,7 +30,7 @@ In conclusion. There are a few cases where images do not process well into 3D:
 
 ## Demo
 Based on the original Google Colab, we can interject a couple of scripts to generate 3D Stereoscopic images.
-  - https://colab.research.google.com/drive/1IwjGl8TahS4c5Rielzvnhfwjofe81EAP#scrollTo=i5-MWEjfBjYx
+  - https://colab.research.google.com/drive/1ByTIIQ_dMPcaNlFFDaiuSDsQ7zO03AIo?usp=sharing
 
 
 ## Original License
